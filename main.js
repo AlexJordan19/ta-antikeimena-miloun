@@ -33,7 +33,7 @@ const STAGES = {
   role: {
     bg: "assets/role-selection.png",
     title: "Menu",
-    text: `Explore and reveal what lies hidden.`,
+    text: `Ancient Scanner Detector 3200`,
     buttons: [
       { label: "Open Scanner", action: () => goTo("lore") },
       { label: "Library", action: () => goTo("instructions") }

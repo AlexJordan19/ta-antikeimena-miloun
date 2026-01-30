@@ -45,12 +45,10 @@ const STAGES = {
 
   instructions: {
     bg: "assets/instructions.png",
-    title: "How to Play — Overview",
+    title: "Library",
     text: `
-      • You play as the <b>Lore Keeper</b>.<br>
-      • Use your device camera to scan AR markers hidden in the environment.<br>
-      • Each marker reveals a voice message or a symbol.<br>
-      • Collect all the pieces, then finish your task.<br>
+      Έδω βρίσκονται τα αντικείμενα που έχεις βρεί!<br>
+      Συνέχισε να ψάχνεις μέχρι να ολοκληρώσεις την ιστορία!<br>
     `,
     buttons: [
       { label: "Back", action: () => goTo("role") }

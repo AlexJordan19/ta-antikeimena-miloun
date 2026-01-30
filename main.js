@@ -15,7 +15,10 @@ const STAGES = {
   intro: {
     bg: "assets/intro.png",
     title: "Τα Αντικείμενα Μιλούν!",
-    text: `Πιέστε το "Αρχή" για εκκίνηση`,
+    text: `
+          blah blah blah context<br>
+          Πατήστε "Αρχή" για να συνεχίσετε!<br>
+          `,
     buttons: [
       { label: "Αρχή", action: () => {
           enableSound();

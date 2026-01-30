@@ -14,8 +14,8 @@ let currentStage = "intro";
 const STAGES = {
   intro: {
     bg: "assets/intro.png",
-    title: "AR Experience",
-    text: `Sth about the setting.`,
+    title: "Πονάει ο Λαιμός μου",
+    text: `Πιέστε το κουμπί για εκκίνηση`,
     buttons: [
       { label: "Start", action: () => {
           enableSound();

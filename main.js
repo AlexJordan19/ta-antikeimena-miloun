@@ -17,7 +17,7 @@ const STAGES = {
     title: "Πονάει ο Λαιμός μου",
     text: `Πιέστε το κουμπί για εκκίνηση`,
     buttons: [
-      { label: "Start", action: () => {
+      { label: "Κουμπί", action: () => {
           enableSound();
           playAmbient();
           speak(STAGES.intro.text);

@@ -33,7 +33,7 @@ const STAGES = {
   role: {
     bg: "assets/role-selection.png",
     title: "Menu",
-    text: `Ancient Scanner Detector 3200`,
+    text: `Ancient Scanner Detector 3000`,
     buttons: [
       { label: "Open Scanner", action: () => {
           stopAmbient();

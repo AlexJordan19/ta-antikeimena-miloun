@@ -35,7 +35,10 @@ const STAGES = {
     title: "Menu",
     text: `Ancient Scanner Detector 3200`,
     buttons: [
-      { label: "Open Scanner", action: () => goTo("lore") },
+      { label: "Open Scanner", action: () => {
+          stopAmbient();
+          window.open(`ar.html?from=${currentStage}`, "_blank");
+      }},
       { label: "Library", action: () => goTo("instructions") }
     ]
   },
@@ -45,10 +48,6 @@ const STAGES = {
     title: "Lore Keeper",
     text: `Use AR to uncover traces. Each clue will reveal a part of the story.`,
     buttons: [
-      { label: "Explore via AR", action: () => {
-          stopAmbient();
-          window.open(`ar.html?from=${currentStage}`, "_blank");
-      }},
       { label: "Finish Task", action: () => goTo("end") },
       { label: "Back", action: () => goTo("role") }
     ]

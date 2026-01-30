@@ -32,11 +32,11 @@ const STAGES = {
 
   role: {
     bg: "assets/role-selection.png",
-    title: "Your Quest",
+    title: "Menu",
     text: `Explore and reveal what lies hidden.`,
     buttons: [
-      { label: "Lore Keeper", action: () => goTo("lore") },
-      { label: "Instructions", action: () => goTo("instructions") }
+      { label: "Open Scanner", action: () => goTo("lore") },
+      { label: "Library", action: () => goTo("instructions") }
     ]
   },
 

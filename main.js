@@ -15,9 +15,9 @@ const STAGES = {
   intro: {
     bg: "assets/intro.png",
     title: "Τα Αντικείμενα Μιλούν!",
-    text: `Πιέστε το κουμπί για εκκίνηση`,
+    text: `Πιέστε το "Αρχή" για εκκίνηση`,
     buttons: [
-      { label: "Κουμπί", action: () => {
+      { label: "Αρχή", action: () => {
           enableSound();
           playAmbient();
           speak(STAGES.intro.text);

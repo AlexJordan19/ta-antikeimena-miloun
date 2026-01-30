@@ -14,7 +14,7 @@ let currentStage = "intro";
 const STAGES = {
   intro: {
     bg: "assets/intro.png",
-    title: "Πονάει ο Λαιμός μου",
+    title: "Τα Αντικείμενα Μιλούν!",
     text: `Πιέστε το κουμπί για εκκίνηση`,
     buttons: [
       { label: "Κουμπί", action: () => {

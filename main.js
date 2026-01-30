@@ -43,16 +43,6 @@ const STAGES = {
     ]
   },
 
-  lore: {
-    bg: "assets/lore-keeper.png",
-    title: "Lore Keeper",
-    text: `Use AR to uncover traces. Each clue will reveal a part of the story.`,
-    buttons: [
-      { label: "Finish Task", action: () => goTo("end") },
-      { label: "Back", action: () => goTo("role") }
-    ]
-  },
-
   instructions: {
     bg: "assets/instructions.png",
     title: "How to Play — Overview",
